@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">cauni.EasyDO</string>
+    <string name="title_activity_main_view">cauni.EasyDO</string>
+    <string name="title_activity_archived_view">cauni.EasyDO - Archived TODOS</string>
+    <string name="title_activity_summary_view">cauni.EasyDO - Summary</string>
+
+    <string name="todo_folder">TODOs</string>
+    <string name="archived_folder">Archived TODOs</string>
+    <string name="summary_folder">Summary</string>
+
+    <string name="switch_folder_active">TODOs folder</string>
+    <string name="switch_folder_archived">Archived folder</string>
+    <string name="send_all_as_mail">Mail all</string>
+    <string name="switch_folder_summary">Summary</string>
+
+    <string name="item_selected_single">1 item selected</string>
+    <string name="item_selected_multi"> items selected</string>
+    <string name="list_updated_archive"> item(s) were archived.</string>
+    <string name="list_updated_unarchive"> item(s) were unarchived.</string>
+    <string name="list_updated_delete"> item(s) were deleted.</string>
+
+    <string name="ask_for_deletion">Delete selected items?</string>
+    <string name="deletion_message">The deleted items cannot be recovered!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="todo_seed_pref_key">cmput301.cauni.easydo.todoseed</string>
+    <string name="todo_user_text_key">cmput301.cauni.easydo.tempusertext</string>
+
+    <string name="context_mail">Send as email</string>
+    <string name="context_delete">Delete</string>
+    <string name="context_archive">Archive</string>
+    <string name="context_unarchive">Unarchive</string>
+
+    <string name="mail_subject">EasyDO TODO Resume</string>
+
+    <string name="todo_summary_all">Total TODO items:</string>
+    <string name="todo_summary">TODO items:</string>
+    <string name="todo_summary_checked">TODOs checked:</string>
+    <string name="todo_summary_unchecked">TODOs unchecked:</string>
+    <string name="todo_summary_archived">Archived TODOs:</string>
+    <string name="todo_summary_archived_checked">Archived TODOs checked:</string>
+    <string name="todo_summary_archived_unchecked">Archived TODOs unchecked:</string>
+</resources>

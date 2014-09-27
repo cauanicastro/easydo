@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cmput301.cauni.easydo" >
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.mainView"
+            android:label="@string/title_activity_main_view"
+            android:parentActivityName=".view.mainView">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.archivedView"
+            android:label="@string/title_activity_archived_view"
+            android:parentActivityName=".view.mainView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.mainView" />
+        </activity>
+        <activity
+            android:name=".view.summaryView"
+            android:label="@string/title_activity_summary_view"
+            android:parentActivityName=".view.mainView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.mainView" />
+        </activity>
+
+    </application>
+
+</manifest>

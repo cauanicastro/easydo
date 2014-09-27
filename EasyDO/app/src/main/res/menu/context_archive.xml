@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cmput301.cauni.easydo.view.mainView" >
+    <item
+        android:id="@+id/menu_mail"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/context_mail"
+        android:icon="@android:drawable/ic_menu_send"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/context_delete"
+        android:icon="@android:drawable/ic_menu_delete"/>
+    <item
+        android:id="@+id/menu_unarchive"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/context_unarchive"
+        android:icon="@android:drawable/ic_menu_set_as"/>
+</menu>
